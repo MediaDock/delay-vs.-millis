@@ -17,9 +17,9 @@ NewPing sonar[SONAR_NUM] = {   // Sensor object array.
 int TriggerDistance = 50;
 
 // Variables Lightduration ONtime
-const long lightDuration1 = 3000;  // Light duration (Filelänge 1)
-const long lightDuration2 = 5000;  // Light duration (Filelänge 2)
-const long lightDuration3 = 8000;  // Light duration (Filelänge 3)
+const long lightDuration1 = 10000;  // Light duration (Filelänge 1)
+const long lightDuration2 = 15000;  // Light duration (Filelänge 2)
+const long lightDuration3 = 18000;  // Light duration (Filelänge 3)
 
 /* SETUP **************************************************************/
 
