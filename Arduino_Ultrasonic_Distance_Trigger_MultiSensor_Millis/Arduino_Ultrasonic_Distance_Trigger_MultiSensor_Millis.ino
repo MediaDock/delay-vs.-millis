@@ -76,7 +76,7 @@ void loop() {
     }
 
     // Check sensor 2
-    if (sonar[1].ping_cm() < TriggerDistance && !light1Active && !light2Active && !light3Active) {
+    if (sonar[1].ping_cm() < TriggerDistance && !light2Active && !light3Active) {
       light2Active = true;
       light2StartTime = currentMillis;
       digitalWrite(bulb2, HIGH);
@@ -88,7 +88,7 @@ void loop() {
     }
 
     // Check sensor 3
-    if (sonar[2].ping_cm() < TriggerDistance && !light1Active && !light2Active && !light3Active) {
+    if (sonar[2].ping_cm() < TriggerDistance !light3Active) {
       light3Active = true;
       light3StartTime = currentMillis;
       digitalWrite(bulb3, HIGH);
